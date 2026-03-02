@@ -1,27 +1,41 @@
-# Angular build output
-/dist/
-/out-tsc/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-/# IDEs and Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
-# Node modules
-/node_modules/
+# testing
+/coverage
 
-# Environment files
-/src/environments/*.ts
+# next.js
+/.next/
+/out/
 
-# Angular CLI configuration files
-.angular/
+# production
+/build
 
-# Logs
+# misc
+.DS_Store
+*.pem
+
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnpm-debug.log*
 
-# System files
-.DS_Store
-Thumbs.db
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
