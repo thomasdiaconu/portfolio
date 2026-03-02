@@ -1,0 +1,163 @@
+{
+  "HOME": "Start",
+  "RESUME": "Lebenslauf",
+  "SKILLS": "Kompetenzen",
+  "PROJECTS": "Projekte",
+  "COURSES": "Kurse und Mentoring",
+  "CONTACT": "Kontakt",
+  "WELCOME": "Hallo!",
+  "introduction": "Ich bin Softwareingenieur in Paris. Aktuell arbeite ich bei AWS im Blu Age Mainframe-Modernisierungsbereich. Mein Fokus liegt auf Automatisierung, Codequalitaet und zuverlaessiger Lieferung.\n\nNeben Software Engineering interessiere ich mich stark fuer kuenstliche Intelligenz und deren praktischen Einsatz in Produktteams.\n\nIch unterrichte auch gerne: Mathematik, Informatik, Algorithmen und strukturiertes Problemloesen.\n\nAusserhalb der Arbeit spiele ich Tennis, loese Programmieraufgaben und verbringe Zeit mit meiner Familie.",
+  "JOB": "Ingenieur",
+  "KEY_SKILLS": "Key Skills",
+  "DATA_STRUCTURES": "Data structures",
+  "ALGORITHMS": "Algorithms",
+  "MATHS": "Mathematics",
+  "AI": "AI",
+  "AI_": "Artifical Intelligence",
+  "OVERVIEW": "Overview",
+  "OOP": "Object-oriented program",
+  "CONTAINERIZATION": "Containerization",
+  "DEPLOYMENT": "Deployment",
+  "VC": "Version control",
+  "PS": "Problem-Solving",
+  "OPTIMIZATION": "Optimization",
+  "ADVANCED_CALC": "Advanced Calculus",
+  "ALGEBRA": "Algebra",
+  "RESPONSIVE": "Responsive design",
+  "BILINGUAL": "Bilingual",
+  "INTERMEDIATE": "Intermediate",
+  "FLUENT": "Fluent",
+  "NEURAL_NET": "Neural networks",
+  "FRONTEND_DEV": "Modern frontend development",
+  "DATA_HANDLING": "Efficient data handling",
+  "FR": "French",
+  "EN": "English",
+  "RO": "Romanian",
+  "GER": "German",
+  "HOBBIES": "Hobbies",
+  "CP": "Competitive programming",
+  "VG": "Video games",
+  "FAMILY": "Family",
+  "READING": "Reading",
+  "TECH_ENTHUSIAST": "Tech enthusiast",
+  "TENNIS_DESC": "Enjoy staying active and competitive.",
+  "CP_DESC": "Sharpen problem-solving skills.",
+  "VG_DESC": "Relax and explore virtual worlds.",
+  "FAMILY_DESC": "Cherish moments with wife and children.",
+  "READING_DESC": "Expand knowledge and perspectives.",
+  "TECH_ENTHUSIAST_DESC": "Stay updated with emerging technologies.",
+  "TEACHING_TITLE": "Kurse und Mentoring",
+  "TEACHING_DESC": "Personalisierte Betreuung in Mathematik und Informatik fuer verschiedene Niveaus.",
+  "MATH_TUTORING": "Mathematics Tutoring",
+  "MATH_TUTORING_DESC": "Whether you are in high school, preparing for competitive exams, or studying in an engineering school, I offer comprehensive tutoring in Mathematics to strengthen your foundations and excel in exams.<br><br><strong>Topics Covered:</strong><ul><li>High school (algebra, geometry, calculus)</li><li>University-level courses (linear algebra, differential equations)</li><li>Competitive exams (prépa, école d’ingénieur)</li></ul><br><strong>Key Benefits:</strong><ul><li>Deep understanding of concepts</li><li>Problem-solving strategies</li><li>Personalized pace and approach</li></ul>",
+  "CS_TUTORING": "Computer Science tutoring",
+  "CS_TUTORING_DESC": "From programming basics to advanced algorithms, I provide expert guidance in Computer Science tailored to your goals and experience level.<br><br><strong>Topics Covered:</strong><ul><li>Programming Languages (Python, Java, etc.)</li><li>Algorithms and Data Structures</li><li>Web Development (HTML/CSS, Angular)</li><li>AI and Machine Learning Basics</li></ul><br><strong>Key Benefits:</strong><ul><li>Practical, hands-on learning</li><li>Real-world problem-solving</li><li>Guidance for projects and assignments</li></ul>",
+  "READY": "Bereit zu starten?",
+  "SCHEDULE": "Schreib mir, um eine Session zu planen.",
+  "GET_IN_TOUCH": "Kontakt aufnehmen",
+  "GET_IN_TOUCH_DESC": "Wenn du Fragen hast oder zusammenarbeiten moechtest, melde dich gerne.",
+  "SEND_MESSAGE": "Nachricht senden",
+  "FULL_NAME": "Vollstaendiger Name",
+  "EMAIL": "E-Mail-Adresse",
+  "SEND": "Senden",
+  "PROJECTS_TITLE": "Projekte",
+  "projects": [
+    {
+      "name": "Waste detection",
+      "description": "Computer Vision, Python, Tensorflow. Detection and classification of diverse type of waste as part of my semester project. Grade: 20/20. <br><ul><li>Developed a piece of code to test a pre-trained neural network (provided in checkpoints files), and evaluated its performances with classical metrics: 0.8 precision, 0.4 recall, 0.5 F1-score</li><li>Built and cleaned a large dataset of∼ 4k pictures and implemented YOLO model (based on the oﬃcial research paper)</li></ul>",
+      "github": "",
+      "demo": "",
+      "doc": "assets/docs/report.pdf"
+    },
+    {
+      "name": "Text classifier",
+      "description": "NLP, Python, Scikit-Learn, Jupyter Notebook.<ul><li>Explored various NLP tools & text preprocessing methods</li><li>Compared several supervised models and picked the best one: obtained an accuracy > 95 %</li></ul>",
+      "github": "https://github.com/thomasdiaconu/NLP_Project_Text_Classifier",
+      "demo": "",
+      "doc": ""
+    },
+    {
+      "name": "Check the place",
+      "description": "Angular, TypeScript, JavaScript, HTML/CSS, Git.<ul><li>Built an Angular web application for students where they can share places they visited</li><li>Designed & implemented about 10 screens. Deployment on Azure Cloud for the presentation</li></ul>",
+      "github": "https://github.com/thomasdiaconu/Web_Development_Project",
+      "demo": "",
+      "doc": ""
+    },
+    {
+      "name": "Image labelling with VoTT",
+      "description": "Python. A way to label images for computer vision using VoTT.",
+      "github": "https://github.com/thomasdiaconu/Labelling_images_with_VoTT",
+      "demo": "",
+      "doc": ""
+    },
+    {
+      "name": "Propagation of mechanical waves in muscles",
+      "description": "Python, LabView, Physics concepts.<ul><li>Participated in the development of a software capable of analyzing the signal generated by the wave</li><li>Measured the celerity of the wave & physically modelled the arm by a Melde rope</li></ul>",
+      "github": "",
+      "demo": "",
+      "doc": ""
+    }
+  ],
+  "REPORT": "Bericht / Zusammenfassung",
+  "RESUME_DESC": "Ein kurzer Ueberblick ueber meinen beruflichen Weg, Ausbildung und Kompetenzen.",
+  "PROFESSIONAL_EXP": "Berufserfahrung",
+  "EDUCATION": "Ausbildung",
+  "experiences": [
+    {
+      "jobTitle": "Software Engineer II",
+      "company": "AWS",
+      "companyLogo": "fa-brands fa-aws",
+      "date": "January 2023 - Present",
+      "description": "Java, Angular, AI, LLMs, AWS. Involved as a Full Stack Engineer on AWS Mainframe modernization. Mainly focused on whole modernization process to deliver customer with reliable modern code. Implemented AI tools to increase code quality and automate modernization steps.<ul><li>Software Engineer II (Oct. 2024 - Present)</li><li>Software Engineer I (Jan. 2023 - Sept. 2024)</li><ul>"
+    },
+    {
+      "jobTitle": "Sofware Development Engineer",
+      "company": "Paprec",
+      "companyLogo": "",
+      "date": "September 2021 - December 2022",
+      "description": "<ul><li>Led the development of the new internal payroll software using Angular & Go</li><li>Developed a calculation engine using Python to automate the computations of employees wages</li><li>Built a tool for image annotation & waste prediction (Angular & Python Flask)</li><li>Leveraged Docker server-side to containerize Frontend and Backend to allow for easy deployment and scalability</li></ul>"
+    },
+    {
+      "jobTitle": "R&D Engineer Intern",
+      "company": "Sopra Banking Software",
+      "companyLogo": "",
+      "date": "February 2021 - September 2021",
+      "description": "Worked in the innovation department as part of my master thesis (grade: 17/20).<ul><li>Built a dataset and implemented several Machine Learning models for investment advice & profiling</li><li>Built, extended and optimized REST API endpoints for an online banking</li><li>Set up a HTTPS reverse proxy in a Linux containerized environment with NGINX, Docker and AWS</li></ul>"
+    },
+    {
+      "jobTitle": "Freelance Software Engineer",
+      "company": "Paprec",
+      "companyLogo": "",
+      "date": "2020 & 2021",
+      "description": "Worked as a freelance software developer in parallel with my studies.<ul><li>Involved as the main frontend developer of two web applications in production using Angular</li><li>Created and led projects presentations to the General Management</li></ul>"
+    },
+    {
+      "jobTitle": "Artifical Intelligence 1-month discovery intern",
+      "company": "Microsoft",
+      "companyLogo": "fa-brands fa-microsoft",
+      "date": "February - March 2019",
+      "description": "Completed edX DAT263x (Introduction to AI) & used Azure Cloud to discover various AI tools"
+    }
+  ],
+  "education": [
+    {
+      "title": "Data Science & Engineering",
+      "school": "EURECOM",
+      "years": "2019 - 2021",
+      "description": "Machine Learning, Deep Learning, Software Development, Mathematics."
+    },
+    {
+      "title": "MSc in Engineering",
+      "school": "IMT Atlantique",
+      "years": "2018 - 2021",
+      "description": "Probabilities/statistics, Graph theory, OOP in Java, SQL, Programming, physics."
+    },
+    {
+      "title": "Preparatory classes for selective schools",
+      "school": "Lycee Marcelin Berthelot",
+      "years": "2014 - 2018",
+      "description": "High level mathematics, physics and computing."
+    }
+  ],
+  "RIGHTS": "Alle Rechte vorbehalten."
+}
