@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono, Space_Grotesk } from "next/font/google";
+import { Suspense } from "react";
 import "./globals.css";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
@@ -35,9 +36,13 @@ export default function RootLayout({
           <div className="pointer-events-none absolute inset-0 opacity-30 [background:linear-gradient(rgba(150,170,210,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(150,170,210,0.08)_1px,transparent_1px)] [background-size:44px_44px]" />
 
           <div className="relative z-10 mx-auto flex min-h-screen w-full max-w-6xl flex-col px-6 md:px-10">
-            <SiteHeader />
+            <Suspense fallback={null}>
+              <SiteHeader />
+            </Suspense>
             <main className="flex-1 py-10 md:py-14">{children}</main>
-            <SiteFooter />
+            <Suspense fallback={null}>
+              <SiteFooter />
+            </Suspense>
           </div>
         </div>
       </body>
