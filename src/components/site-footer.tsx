@@ -16,7 +16,7 @@ export function SiteFooter() {
         <p>
           © {year} {profile.fullName}. {content.RIGHTS}
         </p>
-        <div className="flex items-center gap-5">
+        <div className="flex flex-wrap items-center gap-4">
           <a
             href={`mailto:${profile.email}`}
             className="transition hover:text-white"

@@ -35,7 +35,7 @@ export default function RootLayout({
           <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_10%_15%,rgba(28,34,46,0.75),transparent_30%),radial-gradient(circle_at_85%_25%,rgba(16,57,48,0.35),transparent_35%),linear-gradient(180deg,#07090e,#0b0f17_40%,#080b10)]" />
           <div className="pointer-events-none absolute inset-0 opacity-30 [background:linear-gradient(rgba(150,170,210,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(150,170,210,0.08)_1px,transparent_1px)] [background-size:44px_44px]" />
 
-          <div className="relative z-10 mx-auto flex min-h-screen w-full max-w-6xl flex-col px-6 md:px-10">
+          <div className="relative z-10 mx-auto flex min-h-screen w-full max-w-6xl flex-col px-4 sm:px-6 md:px-8 lg:px-10">
             <Suspense fallback={null}>
               <SiteHeader />
             </Suspense>

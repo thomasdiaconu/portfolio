@@ -24,7 +24,7 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
         </p>
       </section>
 
-      <section className="grid gap-4 md:grid-cols-2">
+      <section className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
         <article className="rounded-2xl border border-white/10 bg-[#0b111a] p-5">
           <p className="text-xs uppercase tracking-wider text-white/45">{ui.contact.email}</p>
           <a
@@ -60,7 +60,7 @@ export default async function ContactPage({ searchParams }: ContactPageProps) {
         </article>
       </section>
 
-      <section className="grid gap-4 md:grid-cols-2">
+      <section className="grid gap-4 lg:grid-cols-2">
         <div className="space-y-4">
           <article className="rounded-2xl border border-white/10 bg-[#0b111a] p-6">
             <h2 className="text-lg font-medium text-white">{ui.contact.courses}</h2>
